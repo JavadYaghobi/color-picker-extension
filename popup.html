@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Pixel Eyedropper</title>
+<link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="logo"></div>
+      <div class="titles">
+        <h1>Pixel Eyedropper</h1>
+        <p>Color picker &amp; magnifier</p>
+      </div>
+    </div>
+
+    <div class="toggle-card">
+      <div class="toggle-text">
+        <span class="toggle-title">Picker</span>
+        <span class="toggle-sub" id="statusLabel">OFF</span>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggleBtn" />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="last-color" id="lastColorBox" style="display:none;">
+      <div class="swatch" id="lastSwatch"></div>
+      <div class="last-info">
+        <div class="last-hex" id="lastHex">#FFFFFF</div>
+        <div class="last-rgb" id="lastRgb">rgb(255, 255, 255)</div>
+      </div>
+    </div>
+
+  </div>
+<script src="popup.js"></script>
+</body>
+</html>
