@@ -26,7 +26,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 12px;
-  background: linear-gradient(135deg, #ff5a5f, #ffc400 35%, #46c878 65%, #3c96ff);
+  background: linear-gradient(135deg, #ff5a5f, #8a10c2 35%, #12c8f5 65%, #e83cff);
   display: flex;
   align-items: center;
   justify-content: center;
